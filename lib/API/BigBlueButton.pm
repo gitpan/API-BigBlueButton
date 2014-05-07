@@ -13,7 +13,7 @@ API::BigBlueButton
     my $bbb = API::BigBlueButton->new( server => 'bbb.myhost', secret => '1234567890' );
     my $res = $bbb->get_version;
 
-    if ( $response->success ) {
+    if ( $res->success ) {
         my $version = $res->response->version
     }
     else {
@@ -39,11 +39,11 @@ use base qw/ API::BigBlueButton::Requests /;
 
 use constant REQUIRE_PARAMS => qw/ secret server /;
 
-our $VERSION = "0.012";
+our $VERSION = "0.013";
 
 =head1 VERSION
  
-version 0.012
+version 0.013
 
 =cut
 
