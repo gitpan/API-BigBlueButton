@@ -62,24 +62,29 @@
    "provides" : {
       "API::BigBlueButton" : {
          "file" : "lib/API/BigBlueButton.pm",
-         "version" : "0.011"
+         "version" : "0.012"
       },
       "API::BigBlueButton::Requests" : {
          "file" : "lib/API/BigBlueButton/Requests.pm",
-         "version" : "0.011"
+         "version" : "0.012"
       },
       "API::BigBlueButton::Response" : {
          "file" : "lib/API/BigBlueButton/Response.pm",
-         "version" : "0.011"
+         "version" : "0.012"
       }
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/regru/API-BigBlueButton/issues"
+      },
+      "homepage" : "https://github.com/regru/API-BigBlueButton",
       "repository" : {
-         "url" : "git://git.reg.ru/oss/api-bigbluebutton.git"
+         "url" : "git://github.com/regru/API-BigBlueButton.git",
+         "web" : "https://github.com/regru/API-BigBlueButton"
       }
    },
-   "version" : "0.011",
+   "version" : "0.012",
    "x_authority" : "cpan:BCDE",
    "x_contributors" : [
       "Alexander Ruzhnikov <ruzhnikov85@gmail.com>",

@@ -28,13 +28,13 @@ no_index:
 provides:
   API::BigBlueButton:
     file: lib/API/BigBlueButton.pm
-    version: 0.011
+    version: 0.012
   API::BigBlueButton::Requests:
     file: lib/API/BigBlueButton/Requests.pm
-    version: 0.011
+    version: 0.012
   API::BigBlueButton::Response:
     file: lib/API/BigBlueButton/Response.pm
-    version: 0.011
+    version: 0.012
 requires:
   Carp: 0
   Digest::SHA1: 0
@@ -44,8 +44,10 @@ requires:
   constant: 0
   perl: 5.008008
 resources:
-  repository: git://git.reg.ru/oss/api-bigbluebutton.git
-version: 0.011
+  bugtracker: https://github.com/regru/API-BigBlueButton/issues
+  homepage: https://github.com/regru/API-BigBlueButton
+  repository: git://github.com/regru/API-BigBlueButton.git
+version: 0.012
 x_authority: cpan:BCDE
 x_contributors:
   - 'Alexander Ruzhnikov <ruzhnikov85@gmail.com>'
